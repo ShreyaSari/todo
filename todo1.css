@@ -1,0 +1,79 @@
+body {
+    font-family:cursive;
+    background-color: #f5f5f5;
+    background-image:-moz-radial-gradient(center center, circle cover, #f0b8e1, hsl(75, 56%, 93%));
+    background-image:-webkit-radial-gradient(center center, circle cover, #f0b8e1, #e0c3f1);
+    background-image:-o-radial-gradient(center center, circle cover, #e0d783, #f0b8e1);
+    background-image:-ms-radial-gradient(center center, circle cover, #f0e3b8, #e4dc68);
+    background-image:radial-gradient(center center, circle cover, rgb(171, 176, 85)2), rgb(194, 192, 94);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    /**background-image: url('C:\Users\SARI SHREYA\OneDrive\Desktop\New folder\Screenshot 2023-11-26 155643.png');*/
+    backface-visibility: hidden;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    background-color: #eecacab7;
+    background-clip:border-box;
+    border-radius: 20px;
+    border:#333;
+    box-sizing: border-box;
+    border-style:solid;
+}
+.title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.todo-form {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #f4eaf4;
+    padding: 10px;
+    border-radius: 20px;
+    border:#333;
+}
+.todo-input {
+    width: 80%;
+    padding: 5px;
+    font-size: 1rem;
+    background: rgb(203, 175, 204);
+    padding: 10px;  
+    border-radius: 10px;
+    border:hwb(from border-radius h w b);
+    outline:#d0c0c9;
+    border:#333;
+    border-style:ridge;
+}
+.todo-list {
+    list-style-image:symbols(👍);
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px;
+    background:#ffffff;
+    padding: 50px 10px;
+    border-radius: 20px;
+    border:#333;
+    border-style:solid;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.delete-btn {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #f44336;
+}
